@@ -4,16 +4,19 @@ int main()
 {
     int n;
     cin >> n;
+    int sp = n / 2;
     int m = (n / 2) + 1;
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < m; j++)
+        cout << " ";
+
+        for (int j = 0; j < n; j++)
         {
             cout << " ";
         }
-        for (int j = 0; j < m; j++)
+        for (int j = 0; j < n; j++)
         {
-            if (j == (n / 2) + 1 || j == 2 * i || i == n - 1)
+            if (j == m || j == i || i == n)
             {
                 cout << "*";
             }
