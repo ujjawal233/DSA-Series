@@ -1,0 +1,5 @@
+<======================Function Definition============================>
+<-Block of Code----
+<-reusable---
+<-loc value decrease----
+ 

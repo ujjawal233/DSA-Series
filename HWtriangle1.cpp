@@ -6,7 +6,7 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
     {
-        char ch = 'A' + i;
+        char ch = 'E' + i;
         for (int j = 0; j < n - i; j++)
         {
             cout << ch;
