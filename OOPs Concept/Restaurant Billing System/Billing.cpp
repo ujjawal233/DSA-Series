@@ -28,30 +28,3 @@ public:
 
 //============== Order Contains =================
 
-class Order
-{
-private:
-    int orderId;
-    int orderQuentity;
-    int
-
-        MenuItem menu;
-
-public:
-    MenuItem(int orderid, string iname, int tid, string tname, string subject, int exp)
-        : teacher(tid, tname, subject, exp)
-    {
-        classId = cid;
-        className = cname;
-    }
-
-    void displayClassRoom()
-    {
-        cout << "\n===== ClassRoom Details =====" << endl;
-        cout << "Class ID        : " << classId << endl;
-        cout << "Class Name      : " << className << endl;
-
-        teacher.displayTeacher();
-    }
-};
-}
