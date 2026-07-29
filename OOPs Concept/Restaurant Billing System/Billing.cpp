@@ -33,9 +33,9 @@ class Order
 private:
     int orderId;
     int orderQuentity;
-    int 
+    int
 
-    MenuItem menu;
+        MenuItem menu;
 
 public:
     MenuItem(int orderid, string iname, int tid, string tname, string subject, int exp)
